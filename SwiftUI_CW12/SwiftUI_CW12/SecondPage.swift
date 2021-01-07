@@ -8,16 +8,18 @@
 import SwiftUI
 
 struct SecondPage: View {
-    @Binding var name: String
-    @Binding var age: String
-    @Binding var phone: String
+//    @Binding var name: String
+//    @Binding var age: String
+//    @Binding var phone: String
+    
+    @ObservedObject var env: Env
     @Environment(\.presentationMode) var presentation
     var body: some View {
         VStack{
             VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 40) {
-                TextField("الاسم", text: $name)
-                TextField("العمر", text: $age)
-                TextField("الهاتف", text: $phone)
+                TextField("الاسم", text: $env.name)
+                TextField("العمر", text: $env.age)
+                TextField("الهاتف", text: $env.phone)
             }.padding()
             .font(.title)
             .multilineTextAlignment(.trailing)

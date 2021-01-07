@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5208DCB525A77CCA00C3EFC9 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5208DCB425A77CCA00C3EFC9 /* Env.swift */; };
 		5211F39725A76D5500C22940 /* SwiftUI_CW12App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211F39625A76D5500C22940 /* SwiftUI_CW12App.swift */; };
 		5211F39925A76D5500C22940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211F39825A76D5500C22940 /* ContentView.swift */; };
 		5211F39B25A76D5800C22940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5211F39A25A76D5800C22940 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5208DCB425A77CCA00C3EFC9 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
 		5211F39325A76D5500C22940 /* SwiftUI_CW12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_CW12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5211F39625A76D5500C22940 /* SwiftUI_CW12App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CW12App.swift; sourceTree = "<group>"; };
 		5211F39825A76D5500C22940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				5211F39F25A76D5800C22940 /* Info.plist */,
 				5211F39C25A76D5800C22940 /* Preview Content */,
 				5211F3A625A76D9200C22940 /* SecondPage.swift */,
+				5208DCB425A77CCA00C3EFC9 /* Env.swift */,
 			);
 			path = SwiftUI_CW12;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5211F39925A76D5500C22940 /* ContentView.swift in Sources */,
+				5208DCB525A77CCA00C3EFC9 /* Env.swift in Sources */,
 				5211F39725A76D5500C22940 /* SwiftUI_CW12App.swift in Sources */,
 				5211F3A725A76D9200C22940 /* SecondPage.swift in Sources */,
 			);
@@ -273,6 +277,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_CW12/Preview Content\"";
+				DEVELOPMENT_TEAM = YSRU9BL3MG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_CW12/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -294,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_CW12/Preview Content\"";
+				DEVELOPMENT_TEAM = YSRU9BL3MG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_CW12/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
